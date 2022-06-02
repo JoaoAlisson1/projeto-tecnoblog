@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+header {
+    min-height: 130px;
+    margin: auto;
+    text-align: center;
+    background-color: #F7B600;
+}
+
+header h1 {
+    padding-top: 50px;
+}
+
+h1#tec {
+    color: #4E4E4E;
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1#blog {
+    display:inline-block;
+    color: white;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: #F7B600;
+    padding-bottom: 30px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+nav > a:hover {
+    background-color: white;
+    color: #F7B600;
+}
+main {
+    max-width: 720px;
+    padding: 20px;
+    background-color: lightgray;
+    margin: auto;
+    
+}
+
+img {
+    
+    margin: auto;
+    width: 100%;
+}
+
+main h1 {
+    margin: auto;
+    text-align: left;
+    color: #F7B600;
+}
+
+.subtitulo {
+    padding-bottom: 20px;
+    text-align: left;
+}
+main p {
+    text-align: center;
+    
+    
+}
+
+.conteudo-principal {
+    display: block;
+}
+
+.postagem {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.conteudo-lateral {
+    width: 240px;
+    display: flex;
+}
+
+.container {
+    background-color: white;
+}
+
+#rodape {
+    align-items: center;
+    display:inline-block;
+}
+
+
+
